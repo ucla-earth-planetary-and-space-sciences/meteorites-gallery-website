@@ -1,0 +1,189 @@
+
+{% extends "base.html" %}
+
+{% block title %} {{block.super}} - Home {% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="/static/custom/css/front-page.css" type="text/css"/>
+{% endblock %}
+{% block content %}
+<div id="front-page" class="content-wrapper">
+    <div id="banner" class="row" id="carousel-panel">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="meteorites-carousel" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#meteorites-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#meteorites-carousel" data-slide-to="1"></li>
+                            <li data-target="#meteorites-carousel" data-slide-to="2"></li>
+                            <li data-target="#meteorites-carousel" data-slide-to="3"></li>
+                            <li data-target="#meteorites-carousel" data-slide-to="4"></li>
+                        </ol>
+
+                        <!-- Wrapper for Slides -->
+                        <div class="carousel-inner">
+
+                            <div class="item active">
+                                <a href="/research/">
+                                    <img src="/static/custom/images/banners/banner6.jpg" alt="Research"/>
+                                </a>
+                                <div class="carousel-caption">
+                                    <h3>Research</h3>
+                                    <p>UCLA has one of the strongest cosmochemical teams in the world.</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <a href="/visit/">
+                                    <img src="/static/custom/images/banners/banner2.jpg" alt="Visit"/>
+                                </a>
+                                <div class="carousel-caption">
+                                    <h3>Plan a Visit</h3>
+                                    <p>Find details about hours, docents, and special events</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="/gallery/clark-iron/">
+                                    <img src="/static/custom/images/banners/banner3.jpg" alt="The Clark Meteorite"/>
+                                </a>
+                                <div class="carousel-caption">
+                                    <h3>The Clark Meteorite</h3>
+                                    <p>Learn about our largest specimen, part of the Canyon Diablo Meteorite</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="/gallery/">
+                                    <img src="/static/custom/images/banners/banner4.jpg" alt="Largest Meteorite"/>
+                                </a>
+                                <div class="carousel-caption">
+                                    <h3>Largest Meteorite Collection on the West Coast!</h3>
+                                    <p>Discover our rich catalog of samples...</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="/faq/">
+                                    <img src="/static/custom/images/banners/banner5.jpg" alt="Meteorite Gallery"/>
+                                </a>
+                                <div class="carousel-caption">
+                                    <h3>Have Questions?</h3>
+                                    <p>Check out the FAQ!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Wrapper for Slides-->
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#meteorites-carousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#meteorites-carousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+
+                    </div><!-- end ESS Banner -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-5 col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div id="jqm-homeheader">
+                        <img class="img-responsive" src="/static/custom/images/meteor-logo.png"
+                             alt="UCLA Meteorite Collection"/>
+                        <p>One of the largest collections of its kind in the United States.</p>
+                    </div>
+
+                    <p class="intro"><strong>Welcome.</strong>
+                        The UCLA Meteorite Collection has been assembled by cosmochemist John Wasson and Alan Rubin and
+                        their colleagues at UCLA.
+                        There are more than 1500 meteorites in the collection. About 100 of these are exhibited in the
+                        meteorite gallery.
+                    </p>
+
+                </div>
+            </div>
+            <div class="hidden-lg">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h5>Quicklinks</h5>
+                    </div>
+                    <div class="panel-body">
+                        <div class="btn-group-vertical center-block">
+                            <a type="button" class="btn btn-md btn-default" href="/highlights/">Gallery Overview</a>
+                            <a type="button" class="btn btn-md btn-default" href="/events/">Gallery Events</a>
+                            <a type="button" class="btn btn-md btn-default" href="/faq/">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-7 col-md-7">
+            <div class="panel panel-default ">
+
+                <div class="panel-heading no-padding">
+                    <h3 class="">The UCLA Meteorite Collection</h3>
+                </div>
+                <div class="panel-body">
+                    <p>The UCLA Collection of Meteorites is the largest on the West Coast and contains over 2500 samples
+                        from about 1500 different meteorites. It is the fifth largest collection of meteorites in the
+                        United States and the second largest housed at a university.
+                    </p>
+                    <p>
+                        Our collection includes the <b>main masses</b> of about 40 meteorites and the <b>type
+                        specimens</b> of more than 300 meteorites collected from hot deserts; 60 of these are iron
+                        meteorites. Eighty of these meteorite type specimens are from the state of California. These
+                        were collected by local citizens during the past few decades, mainly from the playas (dry lakes)
+                        scattered around the Mojave Desert.
+                    </p>
+                    <p>
+                        Some of our meteorites are large and well suited for exhibits (in fact, some of them are
+                        exhibited at the Los Angeles County Museum of Natural History). However, most of the samples are
+                        small and mainly of value for research.
+                    </p>
+                    <p>
+                        The study of meteorites and the processes that formed them is called <b>cosmochemistry</b>. The
+                        cosmochemists at UCLA are among the most productive university researchers in the world. It is
+                        thus appropriate that we have one of the best university meteorite collections.
+                    </p>
+                    <p>
+                        Our Meteorite Gallery, located in room 3697 of the Geology Building, opened in January 2014. The
+                        Gallery is open to the public weekdays from 9 am to 4 pm and on Sundays from 1 to 4 pm when it
+                        is staffed with volunteer docents. Admission is always free. The current exhibits are gradually
+                        expanding as funds and additional samples are obtained. For highlights of the Meteorite Gallery
+                        please click <a href="/highlights/">here</a>.
+                    </p>
+                    <p>
+                        We are eager to add meteorites to the UCLA collection. If you have a meteorite collection and
+                        are interested in considering a donation, we would like to hear from you. You can contact us <a
+                            href="mailto:meteorites@ucla.edu">here</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_javascript %}
+{{block.super}}
+<script src="/static/custom/bootstrap/javascripts/bootstrap/carousel.js"></script>
+<!-- enable carousel -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 4000,
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.breadcrumb').hide()
+    });
+</script>
+{% endblock %}
